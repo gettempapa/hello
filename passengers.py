@@ -17,7 +17,7 @@ flight1 = Flight(5)
 customers = ["Steve", "Bill", "Deb", "Jenny", "Sally", "Dave", "Grant", "Petunia"]
 
 for cust in customers:
-    if flight1.addPassenger(cust) == True:
+    if flight1.addPassenger(cust):
         print(f"{cust} was added to the flight")
     else:
         print(f"{cust} could not be added to the flight")
